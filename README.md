@@ -1,7 +1,7 @@
 # Connect-Four
 
 Connect Four
-www.LocationOfMyProject
+http://salinetti81.github.io/Connect-Four/
 
 Description
 
