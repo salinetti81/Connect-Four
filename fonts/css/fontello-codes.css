@@ -1,0 +1,9 @@
+
+.icon-github:before { content: '\61'; } /* 'a' */
+.icon-twitter-bird:before { content: '\62'; } /* 'b' */
+.icon-linkedin:before { content: '\64'; } /* 'd' */
+.icon-down-hand-1:before { content: '\e800'; } /* '' */
+.icon-instagram-filled:before { content: '\e802'; } /* '' */
+.icon-emo-happy:before { content: '\e803'; } /* '' */
+.icon-emo-unhappy:before { content: '\e804'; } /* '' */
+.icon-emo-thumbsup:before { content: '\e805'; } /* '' */

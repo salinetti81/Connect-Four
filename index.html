@@ -1,0 +1,121 @@
+<html>
+
+<head>
+	<!-- switch to hosted jquery cdn before submitting -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+	<title>Connect  Four</title>
+</head>
+
+	<body>
+
+
+	<div class= "main" tabindex="1"> 
+	<header>
+		<h1>Connect Four</h1>
+	</header>
+
+	<div class="players">
+		<h2>Tell me your names.</h2>
+		<input id="player1" placeholder= "player 1">
+		<input id="player2" placeholder = "player 2"> <br>
+		<button id="enter_button">Enter</button>
+	</div>
+<div class="names"></div>
+</div><!--  ends main div -->
+
+<div id="board">
+
+<!-- Connect 4 Board has 7 rows across and 
+6 columns down -->
+	<table id= "dropper" class = "dropper">
+		<tr class="">
+			<td id="dropper1" class="drop1"> <!-- &#xE800 --></td>
+			<td id="dropper2" class="drop"> <!-- &#xE800 --></td>
+			<td id="dropper3" class="drop1"> <!-- &#xE800 --></td>
+			<td id="dropper4" class="drop"> <!-- &#xE800 --></td>
+			<td id="dropper5" class="drop1"> <!-- &#xE800 --></td>
+			<td id="dropper6" class="drop"> <!-- &#xE800 --></td>
+			<td id="dropper7" class="drop1"> <!-- &#xE800 --></td>
+		</tr>
+		<table>
+
+			
+
+	<table class= "game_board"> 
+
+		<tr class="row1">
+			<td id = "circle1" class="circle"></td>
+			<td id = "circle2" class="circle"></td>
+			<td id = "circle3" class="circle"></td>
+			<td id = "circle4" class="circle"></td>
+			<td id = "circle5" class="circle"></td>
+			<td id = "circle6" class="circle"></td>
+			<td id = "circle7" class="circle"></td>
+		</tr>
+
+		<tr id="row2">
+			<td id = "circle8" class="circle"></td>
+			<td id = "circle9" class="circle"></td>
+			<td id = "circle10" class="circle"></td>
+			<td id = "circle11" class="circle"></td>
+			<td id = "circle12" class="circle"></td>
+			<td id = "circle13" class="circle"></td>
+			<td id = "circle14" class="circle"></td>
+		</tr>
+
+		<tr id="row3">
+			<td id = "circle15" class="circle"></td>
+			<td id = "circle16" class="circle"></td>
+			<td id = "circle17" class="circle"></td>
+			<td id = "circle18" class="circle"></td>
+			<td id = "circle19" class="circle"></td>
+			<td id = "circle20" class="circle"></td>
+			<td id = "circle21" class="circle"></td>
+		</tr>
+
+		<tr id="row4">
+			<td id = "circle22" class="circle"></td>
+			<td id = "circle23" class="circle"></td>
+			<td id = "circle24" class="circle"></td>
+			<td id = "circle25" class="circle"></td>
+			<td id = "circle26" class="circle"></td>
+			<td id = "circle27" class="circle"></td>
+			<td id = "circle28" class="circle"></td>
+		</tr>
+
+		<tr id="row5">
+			<td id = "circle29" class="circle"></td>
+			<td id = "circle30" class="circle"></td>
+			<td id = "circle31" class="circle"></td>
+			<td id = "circle32" class="circle"></td>
+			<td id = "circle33" class="circle"></td>
+			<td id = "circle34" class="circle"></td>
+			<td id = "circle35" class="circle"></td>
+		</tr>
+
+		<tr id="row6">
+			<td id = "circle36" class="circle"></td>
+			<td id = "circle37" class="circle"></td>
+			<td id = "circle38" class="circle"></td>
+			<td id = "circle39" class="circle"></td>
+			<td id = "circle40" class="circle"></td>
+			<td id = "circle41" class="circle"></td>
+			<td id = "circle42" class="circle"></td>
+		</tr>
+			
+	</table>
+	
+	<button id="clearButton" class="replay">Play Again</button>
+
+  </div>
+
+
+<script type="text/javascript" src="js/app.js"></script>
+
+
+</body>
+
+
+</html>

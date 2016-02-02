@@ -1,0 +1,423 @@
+em's are based of a pixel size of 16px*/
+@font-face {
+	font-family: 'fontello';
+  src: url('../fonts/font/fontello.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+.main  {
+	height:100%;
+	width: 100%;
+	background-color: ;
+	/*transition: width 2s linear, height 2s linear ;*/
+	background: black;
+	opacity: .8;
+	color: white;
+
+}
+
+.main:focus {
+	/*background-color: red;*/
+	/*width: 0px;*/
+	/*height: 0px;*/
+	overflow: hidden;
+	/*z-index: -100;*/
+	
+}
+
+
+header {
+	text-align: center;
+	margin: 0 25%; 
+	padding-top: 75px;
+	font-family: 'Luckiest Guy', sans-serif;
+	font-size: 42px;
+	font-weight: ;
+}
+
+body {
+
+}
+
+
+.players, .names {
+/*	border: 2px solid black;*/
+	margin: 5% 30%; 
+	height: 100px;
+	width: 28.10em;
+	padding: 0px 0 0 25px  ;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10%;
+	font-family:  sans-serif;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10%;
+	font-family:  sans-serif;
+
+}
+
+input {
+	width: 15em;
+	height: 40px;
+	margin: 20px;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: ;
+}
+
+button {
+	height:40px;
+	width: 10em;
+	font-size: 20px;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+/*.playerRed {
+	background-color: red;
+}
+
+.playerBlue {
+	background-color: blue;
+}
+*/
+.replay {
+	margin-left: 42.5%; 
+	margin-bottom: 20%;
+}
+
+.dropper {
+	margin: 0 22% 0 22%;
+	height: 5vmin;
+	width: 100vmin;
+}
+
+.drop {
+	background-color: red;
+/*	-webkit-box-shadow: -1px 0px 78px 10px rgba(0,0,0,0.45);
+	-moz-box-shadow: -1px 0px 78px 10px rgba(0,0,0,0.45);
+	box-shadow: -1px 0px 78px 10px rgba(0,0,0,0.45);*/
+	padding-left: 10%;
+	margin-bottom: 0;
+	width:100px;
+  height:100px;
+  border-radius: 50px;
+  /*border-left: 2px solid #000;
+  border-right: 2px solid #000;
+ 	border-top: 2px solid #000;
+  border-bottom: 2px solid #000;*/
+ /* width:100px;
+  height:100px;
+  font-family: 'fontello';
+  font-size: 70px;*/
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-duration: 2s;
+}
+
+.drop1 {
+	background-color: blue;
+	padding-left: 10%;
+	margin-bottom: 0;
+	width:100px;
+  height:100px;
+  border-radius: 50px;
+  /*border-left: 2px solid #000;
+  border-right: 2px solid #000;
+ 	border-top: 2px solid #000;
+  border-bottom: 2px solid #000;*/
+/*  width:100px;
+  height:100px;
+  font-family: 'fontello';
+  font-size: 70px; */
+  /*text-align: center;*/
+  cursor: pointer;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-name: bounce_alt;
+  animation-duration: 2s;
+}
+	.drop:hover {
+	animation-duration: .6s;
+}
+ .drop1:hover {
+	animation-duration: .6s;
+}
+
+@keyframes bounce {
+  0%   {left:0px; top:5px;}
+  25%  {left:0px; top:10px;}
+  50%  {left:0px; top:5px;}
+  75%  {left:0px; top:10px;}
+  100% {left:0px; top:5px;}
+}
+
+@keyframes bounce_alt {
+  0%   {left:0px; top:10px;}
+  25%  {left:0px; top:5px;}
+  50%  {left:0px; top:10px;}
+  75%  {left:0px; top:5px;}
+  100% {left:0px; top:10px;}
+}
+
+.game_board {
+	width: 47.2em;
+	height: 450px;
+	margin: 2% 20% 5% 20%;
+	border: 5px solid rgb(67, 120, 184);
+	background: rgb(236, 214, 77);
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+	-moz-box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+	box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+}
+
+/*.red_circle {
+	background-color: red;
+  width:100px;
+  height:100px;
+  border-radius: 50px;
+  border-left: 2px solid rgb(67, 120, 184);
+  border-right: 2px solid rgb(67, 120, 184);
+ 	border-top: 2px solid rgb(67, 120, 184);
+  border-bottom: 2px solid rgb(67, 120, 184);
+-webkit-box-shadow: inset 14px -9px 44px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 14px -9px 44px -19px rgba(0,0,0,0.75);
+box-shadow: inset 14px -9px 44px -19px rgba(0,0,0,0.75);
+}*/
+
+.circle {
+	background-color: white;
+  width:100px;
+  height:100px;
+  border-radius: 50px;
+  border-left: 2px solid rgb(67, 120, 184);
+  border-right: 2px solid rgb(67, 120, 184);
+ 	border-top: 2px solid rgb(67, 120, 184);
+  border-bottom: 2px solid rgb(67, 120, 184);
+-webkit-box-shadow: inset 14px -9px 44px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 14px -9px 44px -19px rgba(0,0,0,0.75);
+box-shadow: inset 14px -9px 44px -19px rgba(0,0,0,0.75);
+}
+
+circle:hover {
+
+	background-color: #F5EDEB;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 700px) { 
+		header {
+		text-align: center;
+		margin: 1% 28%; 
+		font-size: 1em;
+	}
+
+	.main {
+	height: 100%;
+	width: 100%;
+	background-color: ;
+	transition: width 2s linear, height 2s linear ;
+	background: black;
+	opacity: .8;
+	color: white;
+}
+
+h1 {
+	font-size: 4em;
+	padding-top: 20px;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: bold;
+	margin-bottom: 1%;
+}
+	.players {
+		border: 2px solid black;
+		margin: 1% 0; 
+		height: 100px;
+		width: 28.10em;
+		padding: 25px 0 0 25px  ;
+		text-align: center;
+	}
+
+	input {
+		width: 12em;
+		height: 32px;
+		margin: 5% 0 10% 10px;
+		border-radius: 5px;
+	}
+
+	button {
+		height: 35px;
+		width: 10em;
+		margin: 2% 0; 
+		font-size: 15px;
+		font-weight: bold;
+	}
+.dropper {
+	margin: 0 22% 0 22%;
+	height: 2px;
+	width: 64%;
+}
+
+.drop {
+	background-color: red;
+	padding-left: 10%;
+	margin-bottom: 0;
+	width:100px;
+  height:100px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-duration: 2s;
+}
+
+.drop1 {
+	background-color: blue;
+	padding-left: 10%;
+	margin-bottom: 0;
+	width:100px;
+  height:100px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-name: bounce_alt;
+  animation-duration: 2s;
+}
+
+@keyframes bounce {
+  0%   {left:0px; top:5px;}
+  25%  {left:0px; top:10px;}
+  50%  {left:0px; top:5px;}
+  75%  {left:0px; top:10px;}
+  100% {left:0px; top:5px;}
+}
+
+@keyframes bounce_alt {
+  0%   {left:0px; top:10px;}
+  25%  {left:0px; top:5px;}
+  50%  {left:0px; top:10px;}
+  75%  {left:0px; top:5px;}
+  100% {left:0px; top:10px;}
+}
+	
+
+.game_board {
+	width: 28em;
+	height: 400px;
+	margin: 10% 20%;
+	border: 3px solid rgb(67, 120, 184);
+	background: rgb(236, 214, 77);
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+	-moz-box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+	box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border-left: 2px solid rgb(67, 120, 184);
+  border-right: 2px solid rgb(67, 120, 184);
+ 	border-top: 2px solid rgb(67, 120, 184);
+  border-bottom: 2px solid rgb(67, 120, 184);
+}
+ } /*ends media query for 700px*/
+
+
+
+@media (max-width: 450px) { 
+		header {
+		text-align: center;
+
+		margin: 1% 28%; 
+		font-size: 1em;
+	}
+
+	.players {
+		border: 2px solid black;
+		margin: 1% 0; 
+		height: 100px;
+		width: 28.10em;
+		padding: 25px 0 0 25px  ;
+		text-align: center;
+	}
+
+
+	input {
+		width: 10em;
+		height: 26px;
+		margin: 10px 0 0 10px;
+		border-radius: 5px;
+	}
+	button {
+		height: 35px;
+		width: 10em;
+		margin: 1% 0; 
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.drop  {
+	display: none;
+	}
+
+	.drop1 {
+	display: none;
+	}
+	.game_board {
+	width: 20em;
+	height: 250px;
+	margin: 10% 20%;
+	border: 3px solid rgb(67, 120, 184);
+	background: rgb(236, 214, 77);
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+	-moz-box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+	box-shadow: 10px 3px 28px 9px rgba(0,0,0,0.45);
+
+}
+	.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  border-left: 2px solid rgb(67, 120, 184);
+  border-right: 2px solid rgb(67, 120, 184);
+ 	border-top: 2px solid rgb(67, 120, 184);
+  border-bottom: 2px solid rgb(67, 120, 184);
+}
+
+} /*ends @media for 400px 
+*/
+
+
+
+
+
+
+
+
